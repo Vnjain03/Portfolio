@@ -6,5 +6,5 @@ export const contactsData = {
     facebook: 'https://www.instagram.com/mitansh1412/',
     linkedIn: 'https://www.linkedin.com/in/mitansh-joshi-317673231/',
     twitter: 'https://x.com/mitansh_jo21092',
-    devUsername: "said7388"
+
 }
