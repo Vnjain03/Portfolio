@@ -9,6 +9,7 @@ export const skillsData = [
   'Node JS',
   'MongoDB',
   'Git',
+  'AWS',
   'Bootstrap',
   'Figma',
   'MaterialUI',
