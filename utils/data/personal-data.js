@@ -12,4 +12,5 @@ export const personalData = {
   twitter: 'https://x.com/mitansh_jo21092',
   leetcode: "https://leetcode.com/u/mj141203/",
   resume: "https://drive.google.com/file/d/1wGdFbeHTdEBPdMiMPdmfqPJDy4U40S-F/view?usp=drivesdk"
+  
 }
