@@ -80,8 +80,10 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
-    case 'Node JS':
+    case 'node js':
       return Nodelogo;
+    case 'react native':
+      return react;
     case 'html':
       return html;
     case 'photoshop':
