@@ -73,6 +73,7 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import NextJS from '/public/svg/skills/NextIcon.png'; // Ensure this path is correct
 
 
 export const skillsImage = (skill) => {
@@ -82,6 +83,8 @@ export const skillsImage = (skill) => {
       return gcp;
     case 'node js':
       return Nodelogo;
+    case 'next js':
+      return NextJS;
     case 'react native':
       return react;
     case 'html':
