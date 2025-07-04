@@ -11,6 +11,6 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/mitansh-joshi-317673231/',
   twitter: 'https://x.com/mitansh_jo21092',
   leetcode: "https://leetcode.com/u/mj141203/",
-  resume: "https://drive.google.com/file/d/1a2G-R9THksb-sZBPlfPk-thB50UTB5tr/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1-HFDtSRkbkw27gqQQ8vCBh8P5olZHZ8F/view?usp=drive_link"
   
 }

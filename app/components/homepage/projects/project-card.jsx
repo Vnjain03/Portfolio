@@ -1,6 +1,8 @@
 // @flow strict
 
 import * as React from 'react';
+import { FiExternalLink } from 'react-icons/fi';
+import { FaGithub } from 'react-icons/fa';
 
 function ProjectCard({ project }) {
 
@@ -29,13 +31,13 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">{'{'}</span>
           </div>
           <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
+            <span className="ml-4 lg:ml-8 mr-2 text-white mt-2">name:</span>
             <span className="text-gray-400">{`'`}</span>
             <span className="text-amber-300">{project.name}</span>
             <span className="text-gray-400">{`',`}</span>
           </div>
 
-          <div className="ml-4 lg:ml-8 mr-2">
+          <div className="ml-4 lg:ml-8 mr-2 mt-2">
             <span className=" text-white">tools:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
@@ -51,12 +53,41 @@ function ProjectCard({ project }) {
             }
             <span className="text-gray-400">{"],"}</span>
           </div>
-          <div>
+          <div className="ml-4 mt-2 lg:ml-8 mr-2 flex items-center">
+          <span className="text-white">links:</span>
+            <span className="ml-2 flex gap-3 items-center">
+              {project.demo && (
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-400 hover:text-green-300 underline flex items-center gap-1"
+                  title="Live Link"
+                >
+                  <FiExternalLink size={16} />
+                  <span>Live Link</span>
+                </a>
+              )}
+              {project.code && (
+                <a
+                  href={project.code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#16f2b3] hover:text-[#0ff1ce] underline flex items-center gap-1"
+                  title="GitHub"
+                >
+                  <FaGithub size={16} />
+                  <span>GitHub</span>
+                </a>
+              )}
+            </span>
+            </div>
+          <div className='mt-2'>
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
             <span className="text-orange-400">{project.role}</span>
             <span className="text-gray-400">,</span>
           </div>
-          <div className="ml-4 lg:ml-8 mr-2">
+          <div className="ml-4 lg:ml-8 mt-2 mr-2">
             <span className="text-white">Description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
