@@ -1,8 +1,8 @@
 export const personalData = {
-  name: "MITANSH JOSHI",
-  profile: '/profilepic_.jpeg',
+  name: "Vanshika Jain",
+  profile: '/vanshikaImage.jpeg',
   designation: "Software Developer",
-  description: "My name is MITANSH JOSHI. I am a passionate and versatile programmer who thrives on solving complex problems and building impactful digital experiences. With a strong foundation in full-stack development and a constant drive to explore new tools and technologies, I adapt quickly to any tech stack and project requirement. I enjoy crafting scalable, efficient, and user-centric applications, and I'm always eager to take on new challenges that push my technical and creative boundaries. I’m open to job opportunities that align with my skills, passion, and potential to grow further.",
+  description: "My name is Vanshika Jain. I am a passionate and versatile programmer who thrives on solving complex problems and building impactful digital experiences. With a strong foundation in full-stack development and a constant drive to explore new tools and technologies, I adapt quickly to any tech stack and project requirement. I enjoy crafting scalable, efficient, and user-centric applications, and I'm always eager to take on new challenges that push my technical and creative boundaries. I’m open to job opportunities that align with my skills, passion, and potential to grow further.",
   email: 'mitansh.joshi141203@gmail.com',
   phone: '+91 8799103491',
   address: 'Ahmedabad, Gujarat, India - 382330  ',

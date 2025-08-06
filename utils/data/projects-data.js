@@ -6,24 +6,25 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'Careerly.ai - Your AI-Powered Career Copilot',
-        description: "Careerly.ai is an intelligent career navigation platform designed to help users discover, plan, and execute their ideal career paths. It offers four powerful AI tools—Career Q&A Chat, Resume Analyzer, Roadmap Generator, and Cover Letter Builder—that dramatically reduce the time and effort needed for career planning. Inngest powers background workflows with contextual memory for personalized suggestions, while Clerk enables secure authentication and billing with support for both free and premium users. The platform integrates ImageKit for optimized media delivery and uses NeonDB (PostgreSQL) for efficient data management. Careerly.ai merges modern AI capabilities with clean UX to deliver a focused and empowering career growth experience.",
-        tools: ['Next.js', 'Inngest', 'NeonDB (PostgreSQL)', 'ImageKit', 'Clerk Auth & Billing', 'ShadCN UI'],
+        name: 'Automatic Number Plate Recognition (ANPR) System',
+        description: "This project implements a robust Automatic Number Plate Recognition (ANPR) system using Python, leveraging deep learning and OCR technologies for real-time video analysis. The workflow includes detecting vehicles and license plates from video streams with YOLOv8, tracking vehicles across frames via the SORT algorithm, and reading the license plates using EasyOCR. The project also utilizes OpenCV for video processing, NumPy/Pandas/SciPy for data management and interpolation, and outputs CSV reports along with visualizations. Results are accurate, missing data is interpolated, and all detections are visualized frame-by-frame.",
+        tools: ['Python', 'YOLOv8', 'EasyOCR', 'OpenCV', 'NumPy', 'Pandas', 'SciPy', 'SORT'],
         role: 'Personal Project',
-        code: 'https://github.com/MitanshJoshi/Careerly.ai',
-        demo: 'https://careerly-ai-syyi.vercel.app/',
-        image: crefin, // Replace with actual image import or variable
-    }, 
+        code: 'https://github.com/yourusername/your-anpr-repo', // Replace with your actual GitHub link
+        demo: '', // Optional: provide if a demo is available
+        image: crefin, // Replace with your actual image import or variable reference
+    },    
     {
         id: 2,
-        name: 'GitBuddy CLI - Automate Your Git Workflow',
-        description: "GitBuddy CLI is a developer-focused tool designed to simplify and automate complex Git workflows. It helps users create branches, generate AI-powered commit messages, manage stashes, merge changes, and even create pull requests with a single command. The CLI leverages OpenAI (or local LLMs) for intelligent commit summaries and uses the GitHub API for seamless integration with repositories. With support for multi-account management and pre-configured workflows, GitBuddy eliminates repetitive Git commands and makes version control accessible even for beginners.",
-        tools: ['Node.js', 'TypeScript', 'Inquirer.js', 'OpenAI API', 'GitHub GraphQL API', 'Chalk'],
+        name: 'College ERP System',
+        description: "This project is a comprehensive College ERP (Enterprise Resource Planning) System designed to manage and automate academic and administrative processes in a college environment. It provides role-based dashboards and workflows for students, teachers, and administrators, enabling efficient management of attendance, marks, timetables, user accounts, and more. Features include role-based authentication, attendance and marks management, dynamic timetables, user and report management, and REST API integration.",
+        tools: ['Django', 'Django REST Framework', 'Django Admin', 'SQLite', 'PostgreSQL', 'MySQL', 'Djoser', 'HTML', 'CSS'],
         role: 'Personal Project',
-        code: 'https://github.com/MitanshJoshi/GitBuddy',
-        demo: 'https://www.npmjs.com/package/gitbuddy-cli',
-        image: crefin, // Replace with actual image import or variable
-    },    
+        code: 'https://github.com/yourusername/your-college-erp-repo', // Replace with your actual GitHub link
+        demo: '', // Optional: provide if a demo is available
+        image: crefin // Replace with your actual image import or variable reference
+    },
+    
     {
         id: 3,
         name: 'BidSync - Where Bids Meet Transparency',
